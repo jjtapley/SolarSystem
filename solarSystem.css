@@ -1,0 +1,86 @@
+body {
+    background-color: #000000;
+}
+
+.solarSystem circle {
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.planet {
+    animation-name: orbit;
+    transform-origin: center;
+}
+
+.planet1 {
+    animation-duration: 30s;
+}
+
+.planet2{
+    animation-duration: 15s;
+}
+
+.planet3{
+    animation-duration: 10s;
+}
+
+.planet4{
+    animation-duration: 8s;
+}
+
+.planet5{
+    animation-duration: 14s;
+}
+
+.planet6{
+    animation-duration: 11s;
+}
+
+.planet7{
+    animation-duration: 17s;
+}
+
+.planet8{
+    animation-duration: 16s;
+}
+
+@keyframes orbit {
+    100%  { transform: rotate(360deg);}
+}
+
+.star {
+    animation-name: pulse1;
+    animation-duration: 3s;
+}
+
+@keyframes pulse1 {
+    0% { r: 2; }
+    50% { r: 3; }
+    100% { r: 2;}
+}
+
+.star2 {
+    animation-delay: 1s;
+}
+
+.star3 {
+    animation-delay: 5s;
+}
+
+.star4 {
+    animation-delay: 3.5s;
+}
+
+.star5 {
+    animation-delay: 0.2s;
+}
+
+.star6 {
+    animation-delay: 4.5s;
+}
+
+.star7 {
+    animation-delay: 1.3s;
+}
+
+
